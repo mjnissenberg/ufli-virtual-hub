@@ -36,7 +36,7 @@ header nav a {
 header nav li {
     display: inline-block;
     margin: 0 20px;
-    font-family: "Gentona Light";
+    font-family: "Gentona Light", sans-serif;
     font-size: 20px;
 }
 
@@ -56,13 +56,13 @@ section {
 }
 
 h2 {
-  font-family: "Gentona Light";
+  font-family: "Gentona Light", sans-serif;
   font-size: 20px;
   color: #ffffff;
 }
 
 main p {
-  font-family: "Palatino";
+  font-family: "Palatino", serif;
   font-size: 18px;
   line-height: 1.4em;
   padding: 20px 0;
@@ -75,7 +75,8 @@ main p {
 span {
   font-weight: bold;
   color: #ed7d31;
-  font-size: 24;
+  font-family: "Gentona Light", sans-serif;
+  text-transform: uppercase;
 }
 
 /*========================
@@ -96,7 +97,7 @@ Book Image Styling
 }
 
 .book-text h1 {
-  font-family: "Gentona Light";
+  font-family: "Gentona Light", sans-serif;
   font-weight: bold;
   color: #ffffff;
   border: 3px solid #ffffff;
@@ -184,4 +185,67 @@ Box Section Styling
 
 .right-side a:hover {
   color: #ed7d31;
+}
+
+
+/*========================
+
+Bottom Section Styling
+
+=========================*/
+
+.bottom {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.bottom li {
+  color: #f37021;
+  display: block;
+  text-decoration: none;
+}
+
+
+.make-gift {
+  font-family: "Palatino", serif;
+  color: #f37021;
+  padding: 20px 0 0 0;
+}
+
+.make-gift a{
+  color: #2b57a0;
+}
+
+.make-gift a:hover {
+  color: #709ad9;
+}
+
+
+.book-logo {
+  animation: spin 3s linear infinite;
+  float: left;
+}
+
+.disclaimer p{
+  font-family: "Gentona Light", sans-serif;
+  font-size: 12px;
+  color: #2b57a0;
+  border: 2px solid #2b57a0;
+  padding: 5px;
+  margin: 50px auto;
+}
+
+/*========================
+
+Animation Styling
+
+=========================*/
+
+
+@keyframes spin {
+  0% {
+    transform:rotateY(0);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
