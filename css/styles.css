@@ -1,0 +1,108 @@
+/*========================
+
+Universal Styling
+
+=========================*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@font-face {
+  font-family: "Palatino";
+  src: url(../fonts/palatino.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gentona Light";
+  src: url(../fonts/gentona-light.ttf) format("truetype");
+}
+
+header {
+    background-color: #00529b;
+    padding: 20px 10px 10px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+header nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 20px;
+    font-family: "Gentona Light";
+    font-size: 20px;
+}
+
+.top-logo,
+nav {
+  display: inline-block;
+}
+
+nav a:hover{
+  color: #f2a06a;
+  text-decoration: underline;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: "Gentona Light";
+  font-size: 20px;
+  color: #ffffff;
+}
+
+main p {
+  font-family: "Palatino";
+  font-size: 18px;
+  line-height: 1.4em;
+  padding: 20px 0;
+}
+
+.welcome {
+  padding: 30px 0;
+}
+
+span {
+  font-weight: bold;
+  color: #ed7d31;
+  font-size: 24;
+}
+
+/*========================
+
+Book Image Styling
+
+=========================*/
+
+.book-container {
+  position: relative;
+  width: 1000px;
+}
+
+.book-text {
+    position: absolute;
+    top:50%;
+    left: 60%;
+}
+
+.book-text h1 {
+  font-family: "Gentona Light";
+  font-weight: bold;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  padding: 10px;
+  font-size: 32px;
+  width: 500px;
+  margin: 0 auto;
+
+}
