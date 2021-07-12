@@ -1,4 +1,4 @@
-# Summer 2021: Web Design Principles
+# Mindy Nissenberg - Summer 2021: Web Design Principles
 
 ## Resources
 I accessed the following resources while creating this webpage:
@@ -11,6 +11,6 @@ I accessed the following resources while creating this webpage:
 I, Mindy Nissenberg, have read the point deduction list and understand that I will lose points for missing items.
 
 ## Images
-*The following image is white so may not be visible in the README file*
+*The following image is white so may not be visible here*
 ![UFLI Logo Wide](http://mindynissenberg.com/assignment4/images/ufli-logo-wide.png)
 ![UFLI Logo Small](http://mindynissenberg.com/assignment4/images/ufli-logo-small.png)
