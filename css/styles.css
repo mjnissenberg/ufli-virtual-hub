@@ -106,3 +106,82 @@ Book Image Styling
   margin: 0 auto;
 
 }
+
+/*========================
+
+Box Section Styling
+
+=========================*/
+
+.left-side {
+  width: 40%;
+  padding: 30px 0;
+}
+
+.right-side {
+  width: 50%
+}
+
+.left-side,
+.right-side {
+  display: inline-block;
+}
+
+.lesson-structure .left-side {
+  background-color: #709ad9;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+.instructional-activities .left-side {
+  background-color: #2b57a0;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+.behavior .left-side {
+  background-color: #1b3664;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+.tech-tools .left-side {
+  background-color: #eb6e1a;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+.tutorials .left-side {
+  background-color: #ed7d31;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+.webinar .left-side {
+  background-color: #f2a06a;
+  color: white;
+  text-align: center;
+  margin: 20px 20px 60px 20px;
+}
+
+.boxes a {
+  color: white;
+  text-decoration: none;
+}
+
+.boxes a:hover {
+  color: #d1d1d1;
+}
+
+.right-side a{
+  color: #2b57a0;
+}
+
+.right-side a:hover {
+  color: #ed7d31;
+}
